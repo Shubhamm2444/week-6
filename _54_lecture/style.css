@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#search {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+#results {
+  margin-top: 10px;
+}
