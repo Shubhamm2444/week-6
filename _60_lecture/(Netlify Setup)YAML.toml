@@ -1,0 +1,18 @@
+# netlify.toml (or netlify.yml) file
+
+site:
+  name: My Library App
+  # Point to your built static files directory
+  build: public
+
+# Configure database connection (replace with your actual database details)
+# This is just an example, and static hosting doesn't handle databases directly.
+environment:
+  DB_HOST: localhost
+  DB_USER: username
+  DB_PASSWORD: password
+
+**  Explanation:
+
+This YAML file configures Netlify with your project name and build directory.
+The database connection example is for illustration only. Static hosting doesn't handle databases directly.
